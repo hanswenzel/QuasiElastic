@@ -69,7 +69,7 @@ void ff()
   graph->SetMinimum(0.1);
   graph->SetMaximum(10);
   graph->GetYaxis()->SetTitle("#frac{d#sigma}{d#Omega} (#frac{mb}{ster})");
-  graph->GetXaxis()->SetTitle("#Omega");
+  graph->GetXaxis()->SetTitle("#Omega_lab (deg)");
   TCanvas *c1 = new TCanvas("c1","elastic scattering",1000,800);
   c1->cd();
   c1->SetGrid();
